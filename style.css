@@ -1,0 +1,65 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    width: 95%;
+    height: 500px;
+    font-size: 10px;
+
+}
+input{
+    width: 113px;
+    height: 15px;
+    border-radius: 10px;
+    outline: 0;
+    margin: 5px;
+    border: solid 1px black;
+    text-align: center;
+   
+}
+button{
+    width: 115px;
+    height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid 1px black;
+    outline: 0;
+    margin: 5px;
+    color: white;
+  
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.quadro{
+    border-radius: 10px;
+    border: solid 1px black;
+    margin: 5px;
+    height: 50px;
+    width: 113px;
+    font-size: 8px;
+    text-align: center;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+.resub{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
